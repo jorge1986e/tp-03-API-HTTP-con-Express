@@ -7,6 +7,7 @@
 "Rol principal": "Acompañamiento",
 "disponible": true
 },
+
 {
 "id": 2,
 "instrumento": "Violín",
@@ -15,6 +16,7 @@
 "Rol principal": "Melódico",
 "disponible": true
 },
+
 {
 "id": 3,
 "instrumento": "Trompeta",
@@ -23,6 +25,7 @@
 "Rol principal": "Melódico",
 "disponible": true
 },
+
 {
 "id": 4,
 "instrumento": "Flauta traversa",
@@ -31,6 +34,7 @@
 "Rol principal": "Melódico",
 "disponible": true
 },
+
 {
 "id": 5,
 "instrumento": "Batería",
@@ -39,6 +43,7 @@
 "Rol principal": "Base rítmica",
 "disponible": true
 },
+
 {
 "id": 6,
 "instrumento": "Bajo eléctrico",
