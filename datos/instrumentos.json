@@ -1,0 +1,50 @@
+[
+{
+"id": 1,
+"instrumento": "Piano",
+"familia": "Cuerda percutida",
+"Tipo de sonido": ["Versátil", "resonante"],
+"Rol principal": "Acompañamiento",
+"disponible": true
+},
+{
+"id": 2,
+"instrumento": "Violín",
+"familia": "Cuerda frotada",
+"Tipo de sonido": ["Brillante", "expresivo"],
+"Rol principal": "Melódico",
+"disponible": true
+},
+{
+"id": 3,
+"instrumento": "Trompeta",
+"familia": "Viento",
+"Tipo de sonido": ["Potente", "estridente"],
+"Rol principal": "Melódico",
+"disponible": true
+},
+{
+"id": 4,
+"instrumento": "Flauta traversa",
+"familia": "Viento",
+"Tipo de sonido": ["Dulce", "ágil"],
+"Rol principal": "Melódico",
+"disponible": true
+},
+{
+"id": 5,
+"instrumento": "Batería",
+"familia": "Percusión",
+"Tipo de sonido": ["Rítmico", "contundente"],
+"Rol principal": "Base rítmica",
+"disponible": true
+},
+{
+"id": 6,
+"instrumento": "Bajo eléctrico",
+"familia": "Cuerda pulsada",
+"Tipo de sonido": ["Grave", "profundo"],
+"Rol principal": "Sostén rítmico",
+"disponible": true
+}
+]
