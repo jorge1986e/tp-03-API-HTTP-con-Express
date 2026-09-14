@@ -13,9 +13,9 @@ async function main()
     app.use(express.json());
 
     app.get("/", (req, res)=>{
-        res.json({ mensaje:"Bienvenido a la API de Instrumentos Musicales"});
+        res.status(200).json({mensaje:"Bienvenido a la API de Instrumentos Musicales"});
     });
-//    -----------------------      //
+//    -----------------------busca por familia      //
 
     app.get("/api/instrumentos", (req, res)=>{
         const { familia } = req.query;
@@ -24,11 +24,22 @@ async function main()
          return res.json(instrumentos)
         }
         const resultado = instrumentos.filter(
-        (instrumentos)=> instrumentos.familia.toLowerCase() === String(familia).toLowelCase(),)
+        (instrumentos)=> instrumentos.familia?.toLowerCase() === String(familia).toLowerCase())
         res.json(resultado);
     });
 
-    
+//    -----------------------     //
+
+app.get("/api/instrumentos/:id", (req, res)=>{
+    const id = Number(req.params.id);
+    const instrumento = instrumentos.find((elemento) => elemento.id === id);
+    if (!instrumento) 
+    {
+     return res.status(404).json({error: "instrumento no encontrado"})   
+    }
+    res.status(200).json(instrumento);
+});
+
     app.listen(PORT, ()=>{
     console.log(`Servidor escuchando http://localhost:${PORT}`);});
 
