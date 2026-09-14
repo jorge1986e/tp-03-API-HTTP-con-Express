@@ -1,55 +1,50 @@
 [
-{
-"id": 1,
-"instrumento": "Piano",
-"familia": "Cuerda percutida",
-"Tipo de sonido": ["Versátil", "resonante"],
-"Rol principal": "Acompañamiento",
-"disponible": true
-},
-
-{
-"id": 2,
-"instrumento": "Violín",
-"familia": "Cuerda frotada",
-"Tipo de sonido": ["Brillante", "expresivo"],
-"Rol principal": "Melódico",
-"disponible": true
-},
-
-{
-"id": 3,
-"instrumento": "Trompeta",
-"familia": "Viento",
-"Tipo de sonido": ["Potente", "estridente"],
-"Rol principal": "Melódico",
-"disponible": true
-},
-
-{
-"id": 4,
-"instrumento": "Flauta traversa",
-"familia": "Viento",
-"Tipo de sonido": ["Dulce", "ágil"],
-"Rol principal": "Melódico",
-"disponible": true
-},
-
-{
-"id": 5,
-"instrumento": "Batería",
-"familia": "Percusión",
-"Tipo de sonido": ["Rítmico", "contundente"],
-"Rol principal": "Base rítmica",
-"disponible": true
-},
-
-{
-"id": 6,
-"instrumento": "Bajo eléctrico",
-"familia": "Cuerda pulsada",
-"Tipo de sonido": ["Grave", "profundo"],
-"Rol principal": "Sostén rítmico",
-"disponible": true
-}
+  {
+    "id": 1,
+    "nombre": "Charango",
+    "familia": "Cuerda",
+    "origen": "Bolivia",
+    "descripcion": "Pequeño instrumento de cordófono tradicional de los Andes, tradicionalmente construido con el caparazón de un quirquincho.",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "nombre": "Bombo legüero",
+    "familia": "Percusión",
+    "origen": "Argentina",
+    "descripcion": "Instrumento musical de percusión tradicional de Santiago del Estero, construido con un tronco ahuecado y cuero de animal, famoso por su sonido que se escucha a leguas.",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Guitarra",
+    "familia": "Cuerda",
+    "origen": "España",
+    "descripcion": "Instrumento musical de cuerda pulsada, compuesto de una caja de resonancia, un mástil sobre el que va adosado el diapasón y seis cuerdas.",
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "nombre": "Saxo",
+    "familia": "Viento",
+    "origen": "Bélgica",
+    "descripcion": "Instrumento musical de viento-madera cónico, inventado por Adolphe Sax, que combina la digitación de la flauta con la boquilla de la clarinete.",
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "nombre": "Trompeta",
+    "familia": "Viento",
+    "origen": "Italia",
+    "descripcion": "Instrumento musical de viento-metal, caracterizado por emitir un sonido brillante y penetrante gracias a su tubo metálico doblado en espiral.",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "nombre": "Batería",
+    "familia": "Percusión",
+    "origen": "Estados Unidos",
+    "descripcion": "Conjunto de instrumentos de percusión acústicos y/o electrónicos, combinados y dispuestos para ser tocados por un solo músico.",
+    "disponible": true
+  }
 ]
